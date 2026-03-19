@@ -1,0 +1,18 @@
+{
+  "name": "signal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "decrypt": "node decrypt-database.js",
+    "query": "node query-signal-db.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@signalapp/sqlcipher": "2.4.4",
+    "electron": "^41.0.3"
+  }
+}
